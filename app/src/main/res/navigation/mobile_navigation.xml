@@ -87,4 +87,15 @@
 
         <!-- TODO END STEP 11.1 -->
     </fragment>
+
+    <fragment
+        android:id="@+id/shopping_cart"
+        android:name="com.example.android.codelabs.navigation.ShoppingCartFragment"
+        android:label="Shopping Cart"
+        tools:layout="@layout/fragment_shopping_cart">
+
+        <action
+            android:id="@+id/next_action"
+            app:popUpTo="@id/home_dest" />
+    </fragment>
 </navigation>
